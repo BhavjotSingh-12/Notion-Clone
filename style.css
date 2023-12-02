@@ -1,0 +1,16 @@
+.text{
+    display: none;
+}
+.content:hover>.hello>.text{
+display: block;
+}
+.content:hover>.hello>.text>.text{
+display: block;
+}
+.text::before{
+    display: none;
+}
+.text::after{
+    display: block;
+}
+
